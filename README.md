@@ -12,3 +12,6 @@
 # Состав команды:
 - Бурков Федор Алексеевич
 - Удовенко Арина Сергеевна
+---
+# Ссылка на макет figma:
+https://www.figma.com/design/oJQimhrQ7AoWLJSmovjlKX/ementor?node-id=1-235&node-type=frame&t=5aH1R6VUmbEFMF0e-0
