@@ -1,31 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ru" style="font-family: &quot;MS Sans Serif&quot;">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Название страницы</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js" defer></script>
+        <title>LingvoScience - Главная</title>
     </head>
-    <body>
+    <body background="images/bkg.jpg">
         <header>
-            <h1>Заголовок</h1>
             <nav>
-                <ul>
-                    <li><a href="#home">Главная</a></li>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#contact">Контакты</a></li>
-                </ul>
+            	<table style="width: 100%" align="center">
+					<tr>
+						<td align="center"><a href="main.html" target="content">Главная</a></td>
+						<td align="center"><a href="about.html" target="content">О нас</a></td>
+						<td align="center"><a href="navigator.html" target="content">Навигатор</a></td>
+						<td align="center"><a href="resources.html" target="content">Ресурсы</a></td>
+						<td align="center"><a href="contacts.html" target="content">Контакты</a></td>
+					</tr>
+				</table>
             </nav>
+       		<table style="width: 100%">
+				<tr>
+					<td align="center">
+						<img alt="Рисунок" src="images/img5.jpg" width="200" height="120">
+					</td>
+					<td align="center">
+					<h1>LingvoScience</h1>
+					Проект реализуется с целью популяризации студенческой науки и развития научных межкультурных связей.
+					</td>
+					<td align="center">
+						<img alt="Рисунок" src="images/img6.jpg" width="200" height="120">
+					</td>
+				</tr>
+			</table>
         </header>
         <main>
-            <section id="home">
-                <h2>Добро пожаловать</h2>
-                <p>Основной контент страницы.</p>
-           </section>
+          	<iframe name="content" id="content" src="main.html" width="100%" height="500px">Ваш обозреватель не поддерживает встроенные рамки, или он не настроен на их отображение.
+			</iframe>
         </main>
         <footer>
-            <p>© 2024 Все права защищены.</p>
+            <p>© 2025 Все права защищены.</p>
         </footer>
     </body>
 </html>
